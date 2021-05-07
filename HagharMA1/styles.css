@@ -1,0 +1,191 @@
+/* Details of the body element*/
+
+body{
+    background-color: #01796f;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Making the header text font to be cursive */
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+/* Details of the paragraph directly under the middle pictures */
+p::first-letter{
+    color: red;
+
+}
+.paragraph{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* The ID for the second Paragraph under the pictures */
+
+#P2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+/* The slogan of the Website */
+
+.TS{
+    color: orange;
+    background-color:	#5e3833;
+    font-size: 20px;
+}
+
+/* details of the links(Hover, Visited, Active) */
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: #5e3833;
+}
+
+a:hover{
+    color:blue;
+}
+
+a:active{
+    color:orange;
+}
+
+.second{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* The pictures on the right side of the website*/
+
+.picture{
+    width: 201px;
+    height: 260px;
+    background-color: white;
+    float: right;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+
+}
+
+/* The pictures on the left hand side of the website*/
+
+.picture2{
+    width: 201px;
+    height: 260px;
+    background-color: white;
+    float:left;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+/* The detail of the pictures in the middle */
+
+.midpic{
+    width: 90%;
+    background-color: white;
+    border: 10px solid black;
+    
+}
+
+/* The button to go back to the main page*/
+
+.fixed{
+    position: fixed;
+  top: 0;
+  padding: 20px;
+  background: orange;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* The details of each picture, starting from the first picture */
+
+.p1{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.p2{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.p3{
+    width: 150px;
+    height: 130px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+    padding: 20px; 
+}
+
+.p4{
+    width: 150px;
+    height: 130px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+    padding: 20px; 
+}
+
+.p5{
+    width: 150px;
+    height: 205px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.p6{
+    width: 150px;
+    height: 205px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.p7{
+    width: 150px;
+    height: 205px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.p8{
+    width: 150px;
+    height: 205px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+
+

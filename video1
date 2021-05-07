@@ -1,0 +1,33 @@
+heading - tags  <h1> "HEADING" </h1>
+
+attributes: adding a link->   <a href ="insert link"> #here put what the name you want to show up </a>
+
+how to do a comment in html: <!-- put note here -->
+
+DOM: document object model
+
+start html file with <!doctype html> and then the language with <html lang="en">
+
+head element: <head>"things you want the browser know but not appear"</head> and inside of the head you can put
+<title>"and here you can put whatever logo you want the browers to have for this tab</title>
+
+#SEE DOWN BELOW
+
+<!doctype html>
+<html>
+  
+<head>
+    <meta charset="UTF-8">
+    <title>whatever appears 
+      in your browser tab goes here
+    </title>
+</head>
+  
+<body>
+<!-- 
+all content you want to
+appear on the page goes here
+-->
+</body>
+  
+</html>

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  
+  grid-template-areas: "h h h h h"
+                       "a m m m b"
+                       "a m m m b"
+                       "a m m m b"
+                       "f f f f f";
+}
+
+.header {
+  font-family: fantasy;
+  background-color: cadetblue;
+  font-size: x-large;
+  grid-area: h;
+  height: 20vh;
+}
+
+/* left side of the website with*/
+.left {
+  grid-area: a;
+  list-style-type: none;
+  background-color:plum;
+  height: 60vh;
+  
+}
+
+.main {
+  font-family: fantasy;
+  grid-area: m;
+  font-size: x-large;
+  height: 60vh;
+  background-color: pink;
+  text-align: center;
+}
+
+/* the right side of my website*/
+
+.aside {
+  font-family: fantasy;
+  grid-area: b;
+  height: 60vh;
+  font-size: x-large;
+  background-color: plum;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+.footer{
+  font-family: fantasy;
+  grid-area: f;
+  font-size: x-large;
+  height: 20vh;
+  background-color: cadetblue;
+}
+
+/* list styles*/ 
+
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width:fit-content;
+  padding-inline-start: 50px;
+
+}
+
+/* li elements in the navigation*/
+
+.list>li{ 
+  background-color:aquamarine;
+  border-radius: 5px;
+  /*border: 0px solid #000;*/
+  margin:15px;
+  padding-top: 15%;
+  width: 130%;
+  height: 30px;
+  
+ 
+}
+
+/* hovering feature of the "buttons"*/
+
+.list>li:hover{
+  background-color:white;
+}
