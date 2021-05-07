@@ -1,0 +1,183 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-rows: 2fr .5fr 4fr;
+    
+  }
+
+  
+
+header {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #808080;
+}
+
+.head-link {
+  text-decoration: none;
+  /* margin: 10px; */
+  padding-right: 0%;
+  
+}
+
+.website{
+  padding-bottom: 42.5px;
+  padding-top: 42.5px;
+}
+
+.website a { 
+  color:orange;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 6rem;
+  text-decoration: none;
+} 
+
+.navbar {
+  background:#99c9f1;
+  grid-row:2;
+  
+}
+
+
+/* .nav-buttons1{
+  padding: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 75px;
+}
+   */
+  
+.nav-item a {
+  display: block;
+  padding: 8px ;
+  text-decoration: none;
+  color:orange;
+  
+}
+
+
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Orbitron', sans-serif;
+  
+}
+
+.nav-item {
+  /* position: relative; */
+  background: #99c9f1;
+  border-radius: 5px;
+  /* margin: 3px; */
+  display: flex;
+  justify-content: space-evenly;
+  border: solid;
+}
+
+.nav-item a{
+  color: black;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+  
+.nav-item:hover {
+  background-color:#FFA500;
+  color: white;
+}
+  
+
+.nav-item:hover a {
+  color:black;
+}
+
+ 
+main {
+  display: flex;
+  grid-row: 3;
+  padding-top: 10px;
+  background-color: #808080;
+  justify-content: center; 
+  padding-bottom: 2.5%;
+}
+ 
+h3 {
+  /* text-align: center; */
+  /* font-size: 40px; */
+  font-size: 2rem;
+}
+
+  
+.form-font{
+  padding-top: .5%;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+}
+  
+
+.form-wrapper > * {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.form-wrapper input:focus {
+  outline: 2px solid darkgray;
+}
+
+.form-wrapper input{
+  width:80%;
+  border: 1px solid grey;
+  padding-left: -2em;
+  margin: 0 auto;
+}
+
+  
+.form-wrapper button {
+  color: white;
+  background:#99c9f1;
+  width: 80%;
+  border: 0;
+  margin-top: 12px;
+  font-size: 110%;
+}
+
+
+.form-wrapper button:hover {
+  background:#FFA500;
+  color:white;
+  outline: 0;
+}
+
+
+.box {
+  text-align: left;
+}
+
+.label {
+  display: flex;
+  justify-content: left;
+}
+
+@media screen and (max-width: 580px){
+  .website a{
+    font-size: 4rem;
+  }
+}
+
